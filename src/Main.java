@@ -15,6 +15,14 @@ public class Main {
         System.out.println("s1 = "+s1);
         Random random = new Random();
         s2 = ((short) random.nextInt(10-0));
+        System.out.println("s2 = "+s2);
+        double d2 = random.nextDouble(9999-1);
+        System.out.println("d2 = "+ d2);
+        double d1 = d2/(s1*s2);
+        System.out.println("d1 = "+d1);
 
+        System.out.println("\nЗавдання 3");
+        double y = (Math.pow(Math.tan(f1),2))/Math.log(s1);
+        System.out.println("y = "+y);
     }
 }
