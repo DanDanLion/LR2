@@ -5,7 +5,8 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("Завдання 1");
         short s1, s2 = 99;
-        float f1, f2;
+        float f1 = 4.12F;
+                float f2 = 3.4F;
         byte b = -10;
         boolean q = true;
         //System.out.println("s1 = "+s1);
@@ -22,6 +23,7 @@ public class Main {
         System.out.println("d1 = "+d1);
 
         System.out.println("\nЗавдання 3");
+        //f1 = ;
         double y = (Math.pow(Math.tan(f1),2))/Math.log(s1);
         System.out.println("y = "+y);
     }
